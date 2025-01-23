@@ -10,13 +10,6 @@ documentation = "https://docs.rs/ourobuf"
 keywords = ["ring-buffer", "no-std", "embedded"]
 categories = ["embedded"]
 readme = "README.md"
-exclude = [
-    "/.github",
-    "/.gitignore",
-    "/docs",
-    "*.md",
-    "/.vscode",
-]
 
 [features]
 default = []
