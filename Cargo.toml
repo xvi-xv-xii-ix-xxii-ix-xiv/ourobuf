@@ -1,0 +1,28 @@
+[package]
+name = "ourobuf"
+version = "0.1.1"
+edition = "2021"
+authors = ["<xvi.xv.xii.ix.xxii.ix.xiv <xvi.xv.xii.ix.xxii.ix.xiv@gmail.com>"]
+description = "A no_std circular buffer with constant-time operations"
+license = "MIT"
+repository = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/ourobuf"
+documentation = "https://docs.rs/ourobuf"
+keywords = ["ring-buffer", "no-std", "embedded"]
+categories = ["embedded"]
+readme = "README.md"
+exclude = [
+    "/.github",
+    "/.gitignore",
+    "/docs",
+    "*.md",
+    "/.vscode",
+]
+
+[features]
+default = []
+std = []
+heapless = ["dep:heapless"]
+
+[dependencies]
+heapless = { version = "0.8", optional = true }
+spin = { version = "0.9", features = ["mutex"] }
