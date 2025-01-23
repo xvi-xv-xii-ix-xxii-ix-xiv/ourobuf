@@ -2,7 +2,7 @@
 name = "ourobuf"
 version = "0.1.1"
 edition = "2021"
-authors = ["<xvi.xv.xii.ix.xxii.ix.xiv <xvi.xv.xii.ix.xxii.ix.xiv@gmail.com>"]
+authors = ["<xvi-xv-xii-ix-xxii-ix-xiv <xvi.xv.xii.ix.xxii.ix.xiv@gmail.com>"]
 description = "A no_std circular buffer with constant-time operations"
 license = "MIT"
 repository = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/ourobuf"
