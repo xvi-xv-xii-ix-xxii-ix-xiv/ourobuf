@@ -1,7 +1,7 @@
 # 🌀 Ourobuf
 
 [![Crates.io](https://img.shields.io/crates/v/ourobuf.svg)](https://crates.io/crates/ourobuf)
-[![Docs.rs](https://docs.rs/ourobuf/badge.svg)](https://docs.rs/ourobuf)
+[![Docs.rs](https://docs.rs/ourobuf/badge.svg)](https://docs.rs/ourobuf/0.1.1/ourobuf/)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)]()
 
 Thread-safe circular buffer for embedded systems and high-performance applications
